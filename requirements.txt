@@ -1,0 +1,13 @@
+numpy
+pandas
+matplotlib
+seaborn
+plotly
+scikit-learn
+scipy
+streamlit
+joblib
+nltk
+openpyxl
+tqdm
+Pillow
