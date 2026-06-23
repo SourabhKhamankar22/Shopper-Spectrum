@@ -26,7 +26,7 @@ def load_models():
         pivot_table = pd.read_pickle('pivot_table.joblib')
         return kmeans_model, scaler, knn_model, pivot_table
     except Exception as e:
-        st.error(f"⚠️ Error loading model files. Please ensure 'kmeans_model.joblib', 'rfm_scaler.joblib', 'knn_recommender.joblib', and 'pivot_table.pkl' are in the same folder as this script.\n\nDetails: {e}")
+        st.error(f"⚠️ Error loading model files. Please ensure 'kmeans_model.joblib', 'rfm_scaler.joblib', 'knn_recommender.joblib', and 'pivot_table.joblib' are in the same folder as this script.\n\nDetails: {e}")
         return None, None, None, None
 
 kmeans_model, scaler, knn_model, pivot_table = load_models()
