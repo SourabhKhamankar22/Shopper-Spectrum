@@ -1,16 +1,4 @@
-# Python
-__pycache__/
-*.pyc
-
-# Jupyter
-.ipynb_checkpoints/
 
 # Models
 *.pkl
 
-# Streamlit
-.streamlit/secrets.toml
-
-# Environment
-venv/
-.env
