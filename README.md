@@ -82,7 +82,7 @@ In the highly competitive e-commerce landscape, businesses often struggle with c
 ### Streamlit Application
 
 **Live App:**
-https://YOUR-STREAMLIT-APP.streamlit.app
+https://shopper-spectrum-grkfypjlrbfr7xw59bbxhp.streamlit.app/
 
 ---
 
